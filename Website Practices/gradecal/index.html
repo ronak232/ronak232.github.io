@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grade Calculator</title>
+  </head>
+  <body id="colours">
+    <div class="container">
+        <h1 id="heading">GRADE CALCULATOR</h1>
+        <form id="myCalculator" name="Grade" action="/">
+          <label for="maths" id="subject"> Maths: </label>
+          <br />
+          <input type="text" class="input" id="maths" required />
+          <br />
+          <label for="english" id="subject">English: </label>
+          <br />
+          <input type="text" class="input" id="eng" required />
+          <br />
+          <label for="Chemistry" id="subject">Chemistry: </label>
+          <br />
+          <input type="text" class="input" id="chem" required />
+          <br />
+          <label for="Social" id="subject">Social Studies: </label>
+          <br />
+          <input type="text" class="input" id="social" required />
+          <br />
+          <div id="Btn">
+            <button id="btn" type="submit">Calculate</button>
+          </div>
+          <p id="message"></p>
+        </form>   
+    </div>
+    <script src="calc.js"></script>
+    <script src="https://kit.fontawesome.com/c597c6d0dd.js" crossorigin="anonymous"></script>
+  </body>
+</html>
